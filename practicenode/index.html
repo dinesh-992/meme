@@ -10,13 +10,13 @@
         <form action="./meme.mp4" onsubmit="return validate()">
             <input type="text" id="word" style="border:10px solid red;">
             <input type="submit" style="padding: 5px; border:5px dashed green;" value="guess">
-           <h3> <span style="color: green; font-size: 2em;">1-3</span> లోపల సరైన నంబర్‌ని కనిపెట్టండి <br>మరియు ప్రత్యేక బహుమతికి<br> పొందండి</h3>
+           <h3> <span style="color: green; font-size: 2em;">1-5</span> లోపల సరైన నంబర్‌ని కనిపెట్టండి <br>మరియు ప్రత్యేక బహుమతికి<br> పొందండి</h3>
             </div>
         </form>
     </center>
     <script>
 function validate(){
-    var num=Math.floor(Math.random() * 3)
+    var num=Math.floor(Math.random() * 5)
  let input=document.getElementById('word').value
 
 if(input.length==0 || input==" " || input==''){
