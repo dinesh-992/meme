@@ -1,0 +1,94 @@
+{
+    "syllabus": {
+      "Discrete Mathematics": [
+        { "id": 1, "title": "Principles of Counting" },
+        { "id": 2, "title": "Recurrence Relations" },
+        { "id": 3, "title": "Sets, Functions, and Relations" },
+        { "id": 4, "title": "Propositional Logic and Predicate Logic" },
+        { "id": 5, "title": "Strings and Languages" }
+      ],
+      "Theory of Computation": [
+        { "id": 1, "title": "Regular Languages, Regular Expressions" },
+        { "id": 2, "title": "Finite Automata (deterministic and non-deterministic)" },
+        { "id": 3, "title": "Grammar, Context Free Grammar, Context Free Languages" },
+        { "id": 4, "title": "Push Down Automata (deterministic and non-deterministic)" },
+        { "id": 5, "title": "Proving languages to be regular vs. not-regular and context free vs. not-context free" },
+        { "id": 6, "title": "Turing Machines, Universal Turing Machine" },
+        { "id": 7, "title": "Recursive and Recursively Enumerable Languages" },
+        { "id": 8, "title": "Decidability and Undecidability" }
+      ],
+      "Data Structures & Algorithms": [
+        { "id": 1, "title": "Abstract Data Types and Data Structures" },
+        { "id": 2, "title": "Algorithm Analysis and Order Notation" },
+        { "id": 3, "title": "Sorting and Searching Algorithms and Complexity" },
+        { "id": 4, "title": "Design and Implementation Techniques" },
+        { "id": 5, "title": "Linear Data Structures (Lists and Representation)" },
+        { "id": 6, "title": "Access-Restricted Lists, Queries, Design, and Implementation" },
+        { "id": 7, "title": "Dictionary Data Type (Lists, Hash Tables, Search Trees)" },
+        { "id": 8, "title": "Non-linear Data Structures (Trees, Graphs, Representation, Applications, Traversal)" }
+      ],
+      "Design & Analysis of Algorithms": [
+        { "id": 1, "title": "Algorithm Design Techniques: Top-Down (Divide-and-Conquer, Greedy), Bottom-Up (Dynamic Programming), Randomization" },
+        { "id": 2, "title": "Analysis and Complexity of Algorithms" },
+        { "id": 3, "title": "Lower Bound Analysis, NP-completeness / NP-hardness" },
+        { "id": 4, "title": "Search – Backtracking, Branch-and-Bound" },
+        { "id": 5, "title": "Introduction to Approximation Algorithms" }
+      ],
+      "Digital Electronics and Microprocessors": [
+        { "id": 1, "title": "Combinational Logic Design (Adders, Multiplexers, De-Multiplexers, Encoders, Decoders)" },
+        { "id": 2, "title": "Sequential Logic Design (Counters, Registers)" },
+        { "id": 3, "title": "Programmable Logic Devices and Logic Families" },
+        { "id": 4, "title": "8085, 8086 Architecture and Assembly Programming" },
+        { "id": 5, "title": "Memory Interfacing" },
+        { "id": 6, "title": "Programmable Peripheral Devices and Interfacing (8253, 8255, 8259, 8251)" }
+      ],
+      "Operating Systems": [
+        { "id": 1, "title": "Tasks, Processes, and Threads" },
+        { "id": 2, "title": "Process States & Transitions, Process Scheduling" },
+        { "id": 3, "title": "Concurrency, Mutual Exclusion, Process Synchronization" },
+        { "id": 4, "title": "Deadlock and Deadlock Handling" },
+        { "id": 5, "title": "Memory Allocation, Paging, and Segmentation" },
+        { "id": 6, "title": "Virtual Memory, Frame Allocation, Page Replacement Algorithms" },
+        { "id": 7, "title": "Thrashing, File Systems, I/O System, Secondary Storage" }
+      ],
+      "Computer Organization and Architecture": [
+        { "id": 1, "title": "Instruction Set Architecture - RISC & CISC processors" },
+        { "id": 2, "title": "Computer Arithmetic and Control Unit" },
+        { "id": 3, "title": "Cache Memory & Main Memory" },
+        { "id": 4, "title": "I/O, Secondary Memory, RAID System" },
+        { "id": 5, "title": "Bus & Interconnections" },
+        { "id": 6, "title": "Pipelining and Instruction-Level Parallelism" }
+      ],
+      "Computer Networks": [
+        { "id": 1, "title": "Autonomous Computing Nodes in Networks" },
+        { "id": 2, "title": "Services, Interfaces & Protocols in Network Architectures" },
+        { "id": 3, "title": "Classification of Networks (LAN, MAN, WAN, SAN, PAN)" },
+        { "id": 4, "title": "Network Topologies (Bus, Star, Ring, Tree)" },
+        { "id": 5, "title": "IEEE 802 Standards (Ethernet, Wi-Fi, etc.)" },
+        { "id": 6, "title": "IPv4, IPv6, ICMP, IGMP, Subnetting" },
+        { "id": 7, "title": "Routing Algorithms & Protocols (RIP, OSPF, BGP)" },
+        { "id": 8, "title": "Transport Layer Protocols (TCP, UDP)" },
+        { "id": 9, "title": "Application Layer Protocols (HTTP, FTP, DNS, DHCP, SMTP)" },
+        { "id": 10, "title": "Network Security (Cryptography, Digital Signatures, Firewalls)" }
+      ],
+      "Database Systems": [
+        { "id": 1, "title": "Data Modeling – ER Model, Relational Model, Object-oriented Model" },
+        { "id": 2, "title": "Query Languages – Relational Algebra, Relational Calculus, SQL" },
+        { "id": 3, "title": "Normalization & Indexing" },
+        { "id": 4, "title": "Functional Dependencies, Attribute Closure, Canonical Cover, Normal Forms up to 4NF" },
+        { "id": 5, "title": "Primary, Clustering & Secondary Indices" },
+        { "id": 6, "title": "Query Evaluation & Optimization (Cost-based & Heuristic Optimization)" },
+        { "id": 7, "title": "Transaction Management – Locking, Timestamping, Crash Recovery" }
+      ],
+      "Compiler Construction": [
+        { "id": 1, "title": "Overview of Compiler" },
+        { "id": 2, "title": "Lexical Analysis, Parsing (Top-down and Bottom-up Parsing)" },
+        { "id": 3, "title": "Abstract Syntax Tree, Symbol Tables" },
+        { "id": 4, "title": "Semantic Analysis, Type Inferencing and Type Checking" },
+        { "id": 5, "title": "Syntax Directed Translation" },
+        { "id": 6, "title": "Intermediate Code, Code Generation" },
+        { "id": 7, "title": "Register Allocation and Assignment" }
+      ]
+    }
+  }
+  

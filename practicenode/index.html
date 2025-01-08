@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center style="margin-top:50vh ;">
+        <form action="./meme.mp4" onsubmit="return validate()">
+            <input type="text" id="word" style="border:10px solid red;">
+            <input type="submit" style="padding: 5px; border:5px dashed green;" value="guess">
+           <h3> <span style="color: green; font-size: 2em;">1-3</span> లోపల సరైన నంబర్‌ని కనిపెట్టండి <br>మరియు ప్రత్యేక బహుమతికి<br> పొందండి</h3>
+            </div>
+        </form>
+    </center>
+    <script>
+function validate(){
+    var num=Math.floor(Math.random() * 3)
+ let input=document.getElementById('word').value
+
+if(input.length==0 || input==" " || input==''){
+    alert('ముందు నెంబర్ నోక్కు మావా')
+    return false;
+}
+else{
+    if(input==num){
+        alert('️ఇచ్చి పడేసావు గా 😎🤙🏻🔥')
+        return true;
+    }
+    else{
+        alert('తప్పు మావా')
+        return false;
+    }
+    
+}
+}
+    </script>
+</body>
+</html>
